@@ -3,16 +3,17 @@
 @tailwind utilities;
 
 .main-div {
-  background-image: url("../public/Images/background.png");
-
-}
-
-.main-div {
   position: relative;
+  background-image: url("../public/Images/background.png");
+  /* background-color: #F9D326; */
+  height: auto;
+
 }
+
+
 
 .gradient-overlay {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   right: 0;
@@ -23,6 +24,7 @@
 
 
 .navbar {
+
   z-index: 1;
   background-color: #b59a003f;
   align-items: center;
@@ -84,11 +86,20 @@
   }
 }
 
+.grid-box-main{
+  background-image: url(/public/Images/GraphPaper.png);
+}
+
 .hero {
   /* display: flex;
   align-items: center;
   justify-content: center; */
   border: 1px solid #f92688;
   padding: 2rem;
-  background-image: url(/public/Images/GraphPaper.png);
+  /* background-image: url(/public/Images/GraphPaper.png); */
+}
+
+.button-shadow :hover {
+  box-shadow: rgba(212, 174, 4, 0.306) 0px 8px 8px 8px;
+  transition: box-shadow 0.3s ease;
 }
