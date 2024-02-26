@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-div {
+  background-image: url("../public/Images/background.png");
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background-color: #5C4F0570;
+  align-items: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.navbar button {
+  background-color: #F9D326;
+  padding: 1rem;
+  color: black;
 }
