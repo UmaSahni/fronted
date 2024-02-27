@@ -19,7 +19,7 @@ const Navbar = () => {
               <img src="logo.png" />
             </div>
             <div className="w-3/5 second-section">
-              <ul className="list-none flex w-900 justify-between items-center border-2 border-sky-500 ">
+              <ul className="list-none flex w-900 justify-between items-center  ">
                 <li>About</li>
                 <li>Our Products</li>
                 <li>Token Utility</li>

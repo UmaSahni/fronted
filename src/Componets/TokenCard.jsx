@@ -1,12 +1,15 @@
 import React from "react";
 import Button from "./Button";
 
-const TokenCard = () => {
+
+// {"_id":{"$oid":"65dd5a0627d223236a19449c"},"img":"https://i.ibb.co/v1mvzYb/4-1.png","tokenName":"AlphaToken","symbol":"ALP","decimals":{"$numberInt":"18"},"marketcap":{"$numberInt":"1000000"},"chain":"Ethereum"}
+
+const TokenCard = ({img,tokenName,symbol,ALP,decimals,marketcap,chain}) => {
   return (
-    <div className="w-72 border border-yellow py-8 px-10 back-color">
-      <img src="Images/bitcoin.png" className="m-auto pb-10" />
+    <div className="w-72 border light-border border-yellow py-8 px-10 back-color">
+      <img src={img} className="m-auto pb-10" />
       <div>
-        <h3 className="text-white text-2xl font-semibold">Bitcoin</h3>
+        <h3 className="text-white text-2xl font-semibold">{tokenName}</h3>
         {/* Box Content */}
         <div className="flex gap-5 my-2">
           <div className="text-white">
@@ -16,10 +19,11 @@ const TokenCard = () => {
             <p>Chain</p>
           </div>
           <div className="text-slate-300">
-            <p>BTC</p>
-            <p>18</p>
-            <p>$100000</p>
-            <p>Bitcoin</p>
+            <p>{symbol}</p>
+            <p>{ALP}</p>
+            <p>{decimals}</p>
+            <p>{marketcap}</p>
+            <p>{chain}</p>
           </div>
         </div>
         <div className="my-3">
