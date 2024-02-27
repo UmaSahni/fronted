@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./Componets/Navbar";
 import Hero from "./Componets/Hero";
 import Products from "./Componets/Products";
+import Token from "./Componets/Token";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <div className=" gradient-overlay">
         <Navbar />
         <Hero />
-        <Products/>
+        <Products />
+        <Token/>
       </div>
     </div>
   );

@@ -4,6 +4,12 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <div className="">
+      {/* A grid box on left of the screen */}
+      <img
+        src="Images/box.png"
+        className="absolute w-36 top-9 border border-yellow "
+      />
+      {/* Main Hero Section */}
       <div>
         <div className=" hero border border-yellow  container-md flex align-center justify-center ">
           <img

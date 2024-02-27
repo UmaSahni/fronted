@@ -7,7 +7,7 @@
   background-image: url("../public/Images/background.png");
   /* background-color: #F9D326; */
   height: auto;
-
+  
 }
 
 
@@ -26,12 +26,15 @@
 .navbar {
 
   z-index: 1;
-  background-color: #b59a003f;
+  background-color: #5C4F0570;
+
+  ;
+  /* background-color: #b59a003f; */
   align-items: center;
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(20px);
   border: 1px solid rgba(255, 255, 255, 0.317);
   box-shadow: rgba(92, 79, 5, 0.44) 0px 7px 29px 0px;
 }
@@ -112,9 +115,9 @@
   border: 3px solid rgba(208, 227, 3, 0.146);
 }
 
-.border-top{
- margin: auto;
+.border-top {
+  margin: auto;
 
-  border-top:2px solid #FECC00;
+  border-top: 2px solid #FECC00;
   width: 70%;
 }

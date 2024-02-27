@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const Navbar = () => {
   const [show, setShow] = useState(true);
   return (
+    <div className="sticky top-0" >
     <div className="mx-8 mb-8  translate-y-8">
       <div className="bars ">
         <div>
@@ -28,6 +29,7 @@ const Navbar = () => {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 };
