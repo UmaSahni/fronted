@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="p-8 light-border rounded-lg text-white bacground-color-gray border border-white border-2 w-80 ">
+    <div className="p-8 light-border rounded-xl text-white bacground-color-gray border border-white border-2 w-80 back-color ">
       <img className="m-auto" src="/Images/4.png" alt="" />
 
       <p className="text-center mb-4">Bita Marketplace</p>

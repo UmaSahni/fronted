@@ -3,6 +3,7 @@ import Navbar from "./Componets/Navbar";
 import Hero from "./Componets/Hero";
 import Products from "./Componets/Products";
 import Token from "./Componets/Token";
+import Footer from "./Componets/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <Products />
         <Token/>
+        <Footer/>
       </div>
     </div>
   );

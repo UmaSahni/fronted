@@ -28,7 +28,7 @@ const Hero = () => {
 
       {/* Getting Started Button */}
       <div className="flex align-center justify-center border border-white py-20">
-        <Button text={"Get Started >"} />
+        <Button width={32} text={"Get Started >"} />
       </div>
     </div>
   );
